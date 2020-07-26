@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../indexstyle.css">
+</head>
+<body>
+    <header>
+        <h1>MotoLand</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
+            <li>
+                <a href="../about-us.html">About Us</a>
+            </li>
+            <li>
+                <a href="#" id="products">Products</a>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <a class="dropbtn"  href="../blog.html">Blogs</a>
+                    <div class="dropdown-content">
+                        <a href="#">Guide to one wheel cornering</a>
+                        <a href="#">Guide to highsides</a>
+                        <a href="#">Having fun on a small bike</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="../contact-us.html">Contact Us</a>
+            </li>
+            <li>
+                <a href="../forum-login.html">Forums</a>
+            </li>
+        </ul>
+
+    </nav>
+<h2 style="text-align: center;"><u>Confirm Details</u></h2>
+   <dl style="text-align: center;"> 
+       <dt>First Name: </dt> 
+       <dd>{{ user.firstName }}</dd> <br>
+       <dt>Last Name: </dt> 
+       <dd>{{ user.lastName }}</dd> <br>
+       <dt>User Name: </dt> 
+       <dd>{{ user.userName }}</dd> <br>
+       <dt>Email Address: </dt> 
+       <dd>{{ user.email }}</dd> <br>
+   </dl>
+   <span style="margin-left: 900px; margin-right: 800px">
+       <button> <a href="../forum-register.html">Edit</a></button>
+       <button> <a href="../forum.html">Confirm</a></button>
+   </span> 
+   <br> <br>
+ <footer>
+        <p> &copy; MotoLand pty ltd</p>
+    </footer>
+</body>
+
+</html>

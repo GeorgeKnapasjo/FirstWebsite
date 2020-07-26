@@ -1,0 +1,96 @@
+header{
+    background-color: rgb(221, 73, 73);
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+nav{
+    background-color: rgb(149, 149, 149);
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(83, 83, 83);
+    overflow: hidden;
+  
+  }
+  nav li{
+    float: left;
+    width: 16.66%;
+  }
+  
+  nav li a{
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: Georgia, serif;
+    color: white;
+  }
+  
+  nav li a:hover{
+    background-color: black;
+  }
+
+  footer{
+    background-color: rgb(83, 83, 83);
+    padding: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    clear: both;
+    
+    }
+    .flex-container {
+        display: flex;
+        justify-content: flex-start;
+        width: auto;
+        flex-wrap: wrap;
+
+    }
+
+    .flex-container > div {
+        background-color: white;
+        margin: 10px;
+        padding: 20px;
+        font-size: 15px;
+        box-sizing: border-box;
+        width: 32%;
+        text-align: center;
+
+     
+    }
+
+    .button {
+        background-color: grey; 
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+      }
+      
+      .button1 {
+        background-color: white; 
+        color: black; 
+        border: 1px solid black;
+      }
+      
+      .button1:hover {
+        background-color: black;
+        color: white;
+      }
+
+

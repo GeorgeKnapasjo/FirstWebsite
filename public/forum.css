@@ -1,0 +1,131 @@
+header{
+  background-color: rgb(221, 73, 73);
+  padding: 15px;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+header a{
+  text-decoration: none;
+  color: white;
+}
+
+nav{
+  background-color: rgb(149, 149, 149);
+  position: sticky;
+  top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(83, 83, 83);
+  overflow: hidden;
+
+}
+nav li{
+  float: left;
+  width: 16.66%;
+}
+
+nav li a{
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-family: Georgia, serif;
+  color: white;
+}
+
+nav li a:hover{
+  background-color: black;
+  
+}
+
+footer{
+  background-color: rgb(83, 83, 83);
+  padding: 5px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  clear: both;
+  
+  }
+
+  .container {
+    position: relative;
+    width: 100%;
+  }
+
+  .dropdown {
+    overflow: hidden;
+    float: none;
+    text-align: center;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  .dropdown:hover{
+    background-color: black;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(83, 83, 83);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: black;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* label{
+    display: inline-block;
+    clear: left;
+    width: 100px;
+    text-align: right;
+}
+input {
+  display: inline-block;
+} */
+
+label{
+  display: inline-block;
+  margin-left: 800px;
+  margin-right: 800px;
+}
+input{
+  display: inline-block;
+  margin-left: 800px;
+  margin-right: 800px;
+}

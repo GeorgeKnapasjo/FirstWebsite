@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="forum.css">
+    <title>Forum login</title>
+</head>
+
+<body>
+    <header>
+        <h1> <a href="index.html">MotoLand</a> </h1>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="/index.html">Home</a>
+            </li>
+            <li>
+                <a href="about-us.html">About Us</a>
+            </li>
+            <li>
+                <a href="#" id="products">Products</a>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <a class="dropbtn" href="./blog.html">Blogs</a>
+                    <div class="dropdown-content">
+                        <a href="#">Guide to one wheel cornering</a>
+                        <a href="#">Guide to highsides</a>
+                        <a href="#">Having fun on a small bike</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href=contact-us.html>Contact Us</a>
+            </li>
+            <li>
+                <a href="forum-login.html">Forums</a>
+            </li>
+        </ul>
+    </nav> 
+    <br>
+    <form id="login" action="forum.html">
+    <fieldset>
+        <legend style="text-align: center;">Log in</legend>
+        <br> <br>
+        <label for="username">Username / Email address: </label> <br> 
+        <input type="text" name="username" required> <br><br>
+        <label for="password">Password: </label> <br> 
+        <input type="password" name="password" required> <br><br>
+        <label for="rememberme">Remember me:</label>
+        <input type="checkbox" name="rememberme" id="remember"> <br><br>
+       <div style="margin-right: 800px; margin-left: 800px; display: inline-block;">
+        <button type="submit" value="submit" id="login">Log in</button>
+        <span> Not a <a href="forum-register.html">member?</a></span>
+    </div> <br> <br>
+    </fieldset> <br>
+</form>
+    <footer>&copy; MotoLand pty ltd</footer>
+</body>
+<script src="forum.js" type="text/javascript"></script>
+</html>

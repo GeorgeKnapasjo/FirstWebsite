@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="blog.css">
+
+
+</head>
+
+<body>
+    <header>
+        <h1><a href="./index.html" style="text-decoration: none; color: white;">MotoLand</a></h1>
+        
+    </header>
+    <nav>
+
+        <ul>
+            <li>
+                <a href="/index.html">Home</a>
+            </li>
+            <li>
+                <a href="about-us.html">About Us</a>
+            </li>
+            <li>
+                <a href="#" id="products">Products</a>
+            </li>
+            <li>
+                <div id="dropdown">
+                    <a class="dropbtn" href="./blog.html">Blogs</a>
+                </div>
+            </li>
+            <li>
+                <a href=contact-us.html>Contact Us</a>
+            </li>
+            <li>
+                <a href="forum-login.html">Forums</a>
+            </li>
+
+        </ul>
+
+    </nav>
+    <h1><u>Blogs</u></h1>
+    
+    <p>Sort by:</p> <button class="popularbutton" id="popular" onclick="orderPopularity()">Popular</button><button class="alphabeticalbutton" id="alphabetical" onclick="orderAlphabetically()">Alphabetical</button>
+
+    <div class="flex-container">
+        <div id="flexbox1">
+            <img src="/image/9EoCOKc.gif" alt="Motogp-wheelie">
+            <h2>Ultimate guide to one wheel cornering</h2>
+            <p>Do you ever feel that sometimes riding a motorcycle isn't dangerous enough? Is cornering at 150kmh+ just
+                not the same anymore? Have straightline wheelies gotten too easy and boring? Well in this guide we will
+                go over all the aspects involved with cornering on one wheel to spice up your average sunday morning
+                ride down old pac hwy</p>
+            <div id="readMoreDiv1" style="display: none;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, corporis mollitia sit minus
+                eligendi doloribus aperiam nulla saepe rem ex laboriosam numquam aspernatur quos quia reiciendis ullam
+                perferendis officiis voluptates ducimus veritatis maxime exercitationem? Doloremque excepturi quam
+                commodi voluptates consequuntur.
+                <a href="#">Continue reading</a>
+            </div>
+            <button id="button1" onclick="readMore1()" class="button button1">Read more</button>
+
+        </div>
+
+        <div id="flexbox2">
+            <img src="/image/highside crash.gif" alt="Highside-crash" style="width: 505px; height: 270px;">
+            <h2>Mastering the art of the highside crash</h2>
+            <p>Have you ever wondered how all those motogp riders make highside crashes look so cool and effortless?
+                Have you ever wanted to know what it feels like to almost die? In this article we'll go over how to
+                catapult yourself off your bike in style</p>
+            <div id="readMoreDiv2" style="display: none;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime explicabo illum similique placeat
+                consequuntur eaque adipisci dolores, ex dignissimos ipsum cupiditate excepturi quia dolore magni, quas
+                id sed a voluptate.
+                <a href="#">Continue reading</a>
+            </div>
+            <button id="button2" onclick="readMore2()" class="button button1">Read more</button>
+        </div>
+
+        <div id="flexbox3">
+            <img src="/image/smallbike.gif" alt="Smallbike-gif" style="width: 505px; height: 270px;">
+            <h2>How to have fun on a small diplacement bike</h2>
+            <p>Is your 250cc or below sized motorbike getting mundane or boring? are you yearning for that litre bike
+                feeling? do your buddies make fun of the fact that you still don't have a real bike? then its probably
+                time to get a real bike.</p>
+            <div id="readMoreDiv3" style="display: none;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nesciunt pariatur eos nihil minima eius.
+                Repellat quis quo rerum eos dolorem odit atque fuga ipsum, saepe ratione vitae aliquam distinctio earum
+                odio laborum beatae, quasi hic! Debitis quam ratione vitae.
+                <a href="#">Continue reading</a>
+            </div>
+            <button id="button3" onclick="readMore3()" class="button button1">Read more</button>
+        </div>
+
+        <div id="flexbox4">
+            <img src="image/night ride.jpg" alt="Night-time-ride" style="width: 505px; height: 270px;">
+            <h2>Guide to surviving night time rides</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quod aliquid sit sequi ea ad
+                perferendis numquam ex laboriosam, aliquam fugiat laborum hic, praesentium nam voluptatibus, beatae
+                libero incidunt. Perspiciatis?</p>
+            <div id="readMoreDiv4" style="display: none;">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ipsam, vitae amet placeat voluptatibus
+                consequuntur minus? Corporis nemo velit recusandae beatae dolor veritatis harum totam voluptates non
+                fuga quam minus rem nihil temporibus ipsum quidem tempora, culpa soluta incidunt dignissimos.
+                <a href="#">Continue reading</a>
+            </div>
+            <button id="button4" onclick="readMore4()" class="button button1">Read more</button>
+        </div>
+
+        <div id="flexbox5">
+            <img src="image/learner bike.webp" alt="Ninja 300" style="width: 505px; height: 270px;">
+            <h2>Best learner motorcycles of 2020</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit praesentium error aspernatur ipsam
+                perspiciatis ipsa harum porro, voluptatem, minus unde iste soluta voluptatibus commodi tempora repellat,
+                ab culpa sint aliquam.</p>
+            <div id="readMoreDiv5" style="display: none;">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat voluptatem error porro pariatur, vel
+                aliquam quam quaerat, dicta molestias, at aut! Deleniti voluptatibus laudantium amet. Dolorem,
+                architecto cumque. Eligendi at veritatis iusto placeat natus? Corporis voluptatibus non doloremque ab
+                id!
+                <a href="#">Continue reading</a>
+            </div>
+            <button id="button5" onclick="readMore5()" class="button button1">Read more</button>
+
+        </div>
+
+        <div id="flexbox6">
+            <img src="image/middle class.jpg" alt="R6 image" style="width: 505px; height: 270px;">
+            <h2>Best middle weight sportbikes of 2020</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti saepe fuga expedita non, culpa soluta
+                distinctio eaque veniam, dolorum voluptas odio sed dolor recusandae facere odit laudantium labore magnam
+                autem.</p>
+            <div id="readMoreDiv6" style="display: none;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum labore nesciunt tempore maiores ipsum
+                non repellendus illo. Amet commodi incidunt voluptatum provident delectus autem facilis illo, suscipit
+                saepe at assumenda nihil cumque esse consequuntur repellendus adipisci blanditiis itaque ratione omnis?
+                <a href="#">Continue reading</a>
+            </div>
+            <button id="button6" onclick="readMore6()" class="button button1">Read more</button>
+        </div>
+
+        <div id="flexbox7">
+            <img src="image/litre bike.jpg" alt="MT09 image" style="width: 505px; height: 270px;">
+            <h2>Best middle weight naked bikes of 2020</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum asperiores quia, aliquam accusamus
+                voluptatibus magnam. Nulla aliquid distinctio et excepturi quaerat beatae, exercitationem mollitia ab
+                deleniti explicabo a blanditiis ad.</p>
+            <div id="readMoreDiv7" style="display: none;">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus quam voluptatem reprehenderit quos et
+                reiciendis nam fugiat quidem nesciunt rem corporis id a impedit esse distinctio sequi perferendis enim,
+                eum illo ex veniam magnam aspernatur! Suscipit modi rem consequuntur numquam!
+                <a href="#">Continue reading</a>
+            </div>
+            <button id="button7" onclick="readMore7()" class="button button1">Read more</button>
+        </div>
+
+        <div id="flexbox8">
+            <img src="image/budget bike.jpg" alt="Old bike" style="width: 505px; height: 270px;">
+            <h2>Top budget friendly bikes 2020</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem distinctio soluta iusto provident
+                nobis nulla repudiandae temporibus deleniti amet sequi vel, ratione alias. Provident perspiciatis
+                delectus pariatur deleniti sunt odit!</p>
+            <div id="readMoreDiv8" style="display: none;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, qui odio nostrum eius modi nobis!
+                Numquam voluptas quam dolorem dolor laborum exercitationem, voluptatum porro quos saepe! Neque nemo nam
+                sint dolores! Perspiciatis provident magnam voluptas earum quasi harum. Possimus, distinctio.
+                <a href="#">Continue reading</a>
+            </div>
+            <button id="button8" onclick="readMore8()" class="button button1">Read more</button>
+        </div>
+
+        <div id="flexbox9">
+            <img src="image/motorcycle gear.jpg" alt="Motorcycle gear" style="height: 270px; width: 505px;">
+            <h2>Ultimate guide to riding gear</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, facere saepe dolorem aliquam voluptas ipsa
+                asperiores dicta mollitia veritatis nesciunt optio recusandae? Molestiae earum cupiditate quia. Natus
+                vel libero quasi.</p>
+            <div id="readMoreDiv9" style="display: none;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio eveniet, voluptas maxime quasi nam
+                explicabo magni et error eaque dolor beatae at, quod animi dignissimos fugiat architecto ab aut? Facere
+                voluptate iusto eaque, cupiditate doloribus reprehenderit unde dicta nulla quas?
+                <a href="#">Continue reading</a>
+            </div>
+            <button id="button9" onclick="readMore9()" class="button button1">Read more</button>
+        </div>
+
+    </div>
+
+
+
+    <footer>
+        <p>&copy; MotoLand pty ltd</p>
+    </footer>
+
+    <script type="text/javascript" src="blog.js"></script>
+
+</body>
+
+</html>

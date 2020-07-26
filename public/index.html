@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="indexstyle.css">
+    <style>
+        .flexcontainer {
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+            float: left;
+        }
+
+        .flexcontainer>div {
+            background-color: white;
+            margin: 5px;
+            padding: 20px;
+            font-size: 15px;
+            box-sizing: border-box;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>MotoLand</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="/index.html">Home</a>
+            </li>
+            <li>
+                <a href="about-us.html">About Us</a>
+            </li>
+            <li>
+                <a href="#" id="products">Products</a>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <a class="dropbtn"  href="./blog.html">Blogs</a>
+                    <div class="dropdown-content">
+                        <a href="#">Guide to one wheel cornering</a>
+                        <a href="#">Guide to highsides</a>
+                        <a href="#">Having fun on a small bike</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href=contact-us.html>Contact Us</a>
+            </li>
+            <li>
+                <a href="forum-login.html">Forums</a>
+            </li>
+        </ul>
+
+    </nav>
+
+
+    <section>
+        <div>
+            <img class="mySlides" src="image/e-4357_full.jpg" alt="Motogp1">
+            <img class="mySlides" src="image/resized test.jpg" alt="Motogp2">
+            <button class="mySlides-button1" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="mySlides-button2" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+    </section>
+
+    <article>
+  
+    </article>
+
+    <aside>
+
+    </aside>
+
+    <footer>
+        <p> &copy; MotoLand pty ltd</p>
+    </footer>
+
+    <script type="text/javascript" src="index.js"></script>
+
+</body>
+
+</html>
